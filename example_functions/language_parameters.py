@@ -1,11 +1,14 @@
 def greet(lang):
     if lang == 'es':
-        print('Hola')
+        return 'Hola'
     elif lang == 'fr':
-        print('Bonjour')
+        return 'Bonjour'
     else:
-        print('Hello')
+        return 'Hello'
 
-greet('en')
-greet('es')
-greet('fr')
+print(greet('en'), 'Warren')
+print(greet('es'), 'Carol')
+print(greet('fr'), 'Vikki')
+
+# The return statement ends the function execution
+# and 'sends back' the result of the function.
