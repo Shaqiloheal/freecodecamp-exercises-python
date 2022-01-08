@@ -8,6 +8,7 @@ ival = int(sval)
 print(type(ival))
 
 print(ival + 1)
+# 124
 
 nsv = 'hello bob'
 # niv = int(nsv)
