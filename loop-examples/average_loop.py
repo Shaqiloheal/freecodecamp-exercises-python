@@ -8,6 +8,7 @@ for value in [9, 41, 12, 3, 74, 15]:
     print(count, sum, value)
 print('After', count, sum, sum / count)
 
+# Before 0 0
 # count, sum, value
 # 1 9 9
 # 2 50 4
