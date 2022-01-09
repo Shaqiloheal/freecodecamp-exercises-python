@@ -10,6 +10,8 @@ string_1 = 'X-DSPAM-Confidence: 0.8475'
 colon_num = string_1.find(':')
 
 colon_numfloat = string_1[colon_num + 2 :]
+print(type(colon_numfloat))
+# <type 'str'>
 
 colon_numfloat = float(colon_numfloat)
 print(colon_numfloat)
