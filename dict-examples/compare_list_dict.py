@@ -8,6 +8,9 @@ lst[0] = 23
 print(lst)
 # [23, 183]
 
+# Dictionaries are like lists except they use keys instead
+# of numbers to look up values
+
 ddd = dict()
 ddd['age'] = 21
 ddd['course'] = 182
